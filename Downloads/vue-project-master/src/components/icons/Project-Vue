@@ -1,0 +1,13 @@
+<script>
+</script>
+<template>
+  <h1>Produkte</h1>
+</template>
+<script>
+    export default {
+      props: ['rating']
+    }
+  </script>
+  <template>
+    <h1>Rating: {{rating}}</h1>
+  </template>
